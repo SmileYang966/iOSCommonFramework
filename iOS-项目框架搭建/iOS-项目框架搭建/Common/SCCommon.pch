@@ -1,0 +1,15 @@
+//
+//  SCCommon.pch
+//  iOS-项目框架搭建
+//
+//  Created by Evan Yang on 2021/2/18.
+//
+
+#ifndef SCCommon_pch
+#define SCCommon_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#endif /* SCCommon_pch */
