@@ -103,8 +103,6 @@
 				718D40A025DE4A0C00868D55 /* Modules */,
 				718D409F25DE49F800868D55 /* Networking */,
 				718D409E25DE49EA00868D55 /* Main */,
-				718D408425DE455500868D55 /* AppDelegate.h */,
-				718D408525DE455500868D55 /* AppDelegate.m */,
 				718D408D25DE455500868D55 /* Main.storyboard */,
 				718D409025DE455600868D55 /* Assets.xcassets */,
 				718D409225DE455600868D55 /* LaunchScreen.storyboard */,
@@ -206,6 +204,8 @@
 		71E5C7CD25DE6101002CB3FE /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				718D408425DE455500868D55 /* AppDelegate.h */,
+				718D408525DE455500868D55 /* AppDelegate.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
