@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		718D408625DE455500868D55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 718D408525DE455500868D55 /* AppDelegate.m */; };
-		718D408F25DE455500868D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 718D408D25DE455500868D55 /* Main.storyboard */; };
 		718D409125DE455600868D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 718D409025DE455600868D55 /* Assets.xcassets */; };
-		718D409425DE455600868D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 718D409225DE455600868D55 /* LaunchScreen.storyboard */; };
 		718D409725DE455600868D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 718D409625DE455600868D55 /* main.m */; };
+		71B62C8E25E0B71E007C7D78 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B62C8D25E0B71E007C7D78 /* HomeViewController.m */; };
+		71B62C9225E0B72C007C7D78 /* MySettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B62C9125E0B72C007C7D78 /* MySettingViewController.m */; };
+		71B62CA025E0FCBC007C7D78 /* tabbar_home_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B62C9F25E0FCBC007C7D78 /* tabbar_home_selected@2x.png */; };
+		71B62CA325E0FCC8007C7D78 /* tabbar_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B62CA225E0FCC8007C7D78 /* tabbar_home@2x.png */; };
+		71B62CA625E0FCD1007C7D78 /* tabbar_message_center_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B62CA525E0FCD1007C7D78 /* tabbar_message_center_selected@2x.png */; };
+		71B62CA925E0FCD7007C7D78 /* tabbar_message_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B62CA825E0FCD7007C7D78 /* tabbar_message_center@2x.png */; };
+		71B62CAC25E0FCDE007C7D78 /* tabbar_profile_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B62CAB25E0FCDE007C7D78 /* tabbar_profile_selected@2x.png */; };
+		71B62CAF25E0FCE5007C7D78 /* tabbar_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B62CAE25E0FCE5007C7D78 /* tabbar_profile@2x.png */; };
+		71B62CB225E0FCF6007C7D78 /* tabbar_discover_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B62CB125E0FCF6007C7D78 /* tabbar_discover_selected@2x.png */; };
+		71B62CBC25E0FD0B007C7D78 /* tabbar_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B62CBB25E0FD0B007C7D78 /* tabbar_discover@2x.png */; };
+		71B62CC225E100E2007C7D78 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B62CC125E100E2007C7D78 /* CalendarViewController.m */; };
+		71B62CC725E100ED007C7D78 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B62CC625E100ED007C7D78 /* TimerViewController.m */; };
 		71E5C79E25DE52CA002CB3FE /* SCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E5C79D25DE52CA002CB3FE /* SCNavigationController.m */; };
 		71E5C7A225DE52EB002CB3FE /* SCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E5C7A125DE52EB002CB3FE /* SCTabBarController.m */; };
 		71E5C7C225DE6037002CB3FE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E5C7AA25DE6037002CB3FE /* NSLayoutConstraint+MASDebugAdditions.m */; };
@@ -30,11 +40,25 @@
 		718D408125DE455500868D55 /* iOS-项目框架搭建.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-项目框架搭建.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		718D408425DE455500868D55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		718D408525DE455500868D55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		718D408E25DE455500868D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		718D409025DE455600868D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		718D409325DE455600868D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		718D409525DE455600868D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		718D409625DE455600868D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71B62C8C25E0B71E007C7D78 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		71B62C8D25E0B71E007C7D78 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		71B62C9025E0B72C007C7D78 /* MySettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySettingViewController.h; sourceTree = "<group>"; };
+		71B62C9125E0B72C007C7D78 /* MySettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySettingViewController.m; sourceTree = "<group>"; };
+		71B62C9F25E0FCBC007C7D78 /* tabbar_home_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home_selected@2x.png"; sourceTree = "<group>"; };
+		71B62CA225E0FCC8007C7D78 /* tabbar_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home@2x.png"; sourceTree = "<group>"; };
+		71B62CA525E0FCD1007C7D78 /* tabbar_message_center_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_message_center_selected@2x.png"; sourceTree = "<group>"; };
+		71B62CA825E0FCD7007C7D78 /* tabbar_message_center@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_message_center@2x.png"; sourceTree = "<group>"; };
+		71B62CAB25E0FCDE007C7D78 /* tabbar_profile_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_profile_selected@2x.png"; sourceTree = "<group>"; };
+		71B62CAE25E0FCE5007C7D78 /* tabbar_profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_profile@2x.png"; sourceTree = "<group>"; };
+		71B62CB125E0FCF6007C7D78 /* tabbar_discover_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover_selected@2x.png"; sourceTree = "<group>"; };
+		71B62CBB25E0FD0B007C7D78 /* tabbar_discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover@2x.png"; sourceTree = "<group>"; };
+		71B62CC025E100E2007C7D78 /* CalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		71B62CC125E100E2007C7D78 /* CalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		71B62CC525E100ED007C7D78 /* TimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		71B62CC625E100ED007C7D78 /* TimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
 		71E5C79C25DE52CA002CB3FE /* SCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNavigationController.h; sourceTree = "<group>"; };
 		71E5C79D25DE52CA002CB3FE /* SCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNavigationController.m; sourceTree = "<group>"; };
 		71E5C7A025DE52EB002CB3FE /* SCTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTabBarController.h; sourceTree = "<group>"; };
@@ -97,15 +121,14 @@
 		718D408325DE455500868D55 /* iOS-项目框架搭建 */ = {
 			isa = PBXGroup;
 			children = (
+				71B62C9E25E0FCAF007C7D78 /* Resources */,
 				71E5C7CD25DE6101002CB3FE /* Others */,
 				71E5C7A425DE5331002CB3FE /* Common */,
 				718D40A125DE4E3600868D55 /* Vendors */,
 				718D40A025DE4A0C00868D55 /* Modules */,
 				718D409F25DE49F800868D55 /* Networking */,
 				718D409E25DE49EA00868D55 /* Main */,
-				718D408D25DE455500868D55 /* Main.storyboard */,
 				718D409025DE455600868D55 /* Assets.xcassets */,
-				718D409225DE455600868D55 /* LaunchScreen.storyboard */,
 				718D409525DE455600868D55 /* Info.plist */,
 				718D409625DE455600868D55 /* main.m */,
 			);
@@ -133,6 +156,8 @@
 		718D40A025DE4A0C00868D55 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				71B62CBF25E100BD007C7D78 /* 计时 */,
+				71B62CBE25E1009D007C7D78 /* 日历 */,
 				718D40A325DE4E6B00868D55 /* MySetting */,
 				718D40A225DE4E6400868D55 /* Home */,
 			);
@@ -150,6 +175,8 @@
 		718D40A225DE4E6400868D55 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				71B62C8C25E0B71E007C7D78 /* HomeViewController.h */,
+				71B62C8D25E0B71E007C7D78 /* HomeViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -157,8 +184,43 @@
 		718D40A325DE4E6B00868D55 /* MySetting */ = {
 			isa = PBXGroup;
 			children = (
+				71B62C9025E0B72C007C7D78 /* MySettingViewController.h */,
+				71B62C9125E0B72C007C7D78 /* MySettingViewController.m */,
 			);
 			path = MySetting;
+			sourceTree = "<group>";
+		};
+		71B62C9E25E0FCAF007C7D78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71B62C9F25E0FCBC007C7D78 /* tabbar_home_selected@2x.png */,
+				71B62CA225E0FCC8007C7D78 /* tabbar_home@2x.png */,
+				71B62CA525E0FCD1007C7D78 /* tabbar_message_center_selected@2x.png */,
+				71B62CA825E0FCD7007C7D78 /* tabbar_message_center@2x.png */,
+				71B62CAB25E0FCDE007C7D78 /* tabbar_profile_selected@2x.png */,
+				71B62CAE25E0FCE5007C7D78 /* tabbar_profile@2x.png */,
+				71B62CB125E0FCF6007C7D78 /* tabbar_discover_selected@2x.png */,
+				71B62CBB25E0FD0B007C7D78 /* tabbar_discover@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		71B62CBE25E1009D007C7D78 /* 日历 */ = {
+			isa = PBXGroup;
+			children = (
+				71B62CC025E100E2007C7D78 /* CalendarViewController.h */,
+				71B62CC125E100E2007C7D78 /* CalendarViewController.m */,
+			);
+			path = "日历";
+			sourceTree = "<group>";
+		};
+		71B62CBF25E100BD007C7D78 /* 计时 */ = {
+			isa = PBXGroup;
+			children = (
+				71B62CC525E100ED007C7D78 /* TimerViewController.h */,
+				71B62CC625E100ED007C7D78 /* TimerViewController.m */,
+			);
+			path = "计时";
 			sourceTree = "<group>";
 		};
 		71E5C7A425DE5331002CB3FE /* Common */ = {
@@ -266,9 +328,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				718D409425DE455600868D55 /* LaunchScreen.storyboard in Resources */,
+				71B62CA925E0FCD7007C7D78 /* tabbar_message_center@2x.png in Resources */,
+				71B62CAF25E0FCE5007C7D78 /* tabbar_profile@2x.png in Resources */,
+				71B62CA025E0FCBC007C7D78 /* tabbar_home_selected@2x.png in Resources */,
+				71B62CA325E0FCC8007C7D78 /* tabbar_home@2x.png in Resources */,
+				71B62CAC25E0FCDE007C7D78 /* tabbar_profile_selected@2x.png in Resources */,
+				71B62CBC25E0FD0B007C7D78 /* tabbar_discover@2x.png in Resources */,
+				71B62CA625E0FCD1007C7D78 /* tabbar_message_center_selected@2x.png in Resources */,
+				71B62CB225E0FCF6007C7D78 /* tabbar_discover_selected@2x.png in Resources */,
 				718D409125DE455600868D55 /* Assets.xcassets in Resources */,
-				718D408F25DE455500868D55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +352,14 @@
 				71E5C7C625DE6037002CB3FE /* MASLayoutConstraint.m in Sources */,
 				718D408625DE455500868D55 /* AppDelegate.m in Sources */,
 				71E5C7CB25DE6037002CB3FE /* MASViewAttribute.m in Sources */,
+				71B62CC225E100E2007C7D78 /* CalendarViewController.m in Sources */,
 				71E5C7C725DE6037002CB3FE /* NSArray+MASAdditions.m in Sources */,
 				71E5C7C425DE6037002CB3FE /* MASCompositeConstraint.m in Sources */,
+				71B62C9225E0B72C007C7D78 /* MySettingViewController.m in Sources */,
 				71E5C7C525DE6037002CB3FE /* MASConstraintMaker.m in Sources */,
+				71B62C8E25E0B71E007C7D78 /* HomeViewController.m in Sources */,
 				71E5C7C825DE6037002CB3FE /* View+MASAdditions.m in Sources */,
+				71B62CC725E100ED007C7D78 /* TimerViewController.m in Sources */,
 				71E5C7C325DE6037002CB3FE /* ViewController+MASAdditions.m in Sources */,
 				718D409725DE455600868D55 /* main.m in Sources */,
 				71E5C7CA25DE6037002CB3FE /* MASViewConstraint.m in Sources */,
@@ -297,25 +369,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		718D408D25DE455500868D55 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				718D408E25DE455500868D55 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		718D409225DE455600868D55 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				718D409325DE455600868D55 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		718D409825DE455600868D55 /* Debug */ = {
